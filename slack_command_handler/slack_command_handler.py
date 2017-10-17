@@ -79,7 +79,7 @@ def send_slack_dialog(feedback_text=None, bot_access_token=None, trigger_id=None
             "elements": [{
                 'type': "textarea",
                 'label': 'Comments',
-                'name': 'Comments',
+                'name': 'text',
                 'hint': '(required)',
                 'value': feedback_text
             }]
